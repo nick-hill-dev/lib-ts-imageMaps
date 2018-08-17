@@ -28,6 +28,7 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="ImageMap.ts" />
+    <TypeScriptCompile Include="NineImageMap.ts" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="tsconfig.json" />
