@@ -1,0 +1,18 @@
+﻿{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "strictNullChecks": true,
+    "module": "system",
+    "removeComments": false,
+    "outFile": "imageMaps.js",
+    "noEmitOnError": true,
+    "composite": true
+  },
+  "files": [
+    "ImageMap.ts"
+  ]
+}
