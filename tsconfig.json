@@ -12,8 +12,7 @@
     "noEmitOnError": true,
     "composite": true
   },
-  "files": [
-    "ImageMap.ts",
-    "NineImageMap.ts"
+  "exclude": [
+    "imageMaps.d.ts"
   ]
 }
