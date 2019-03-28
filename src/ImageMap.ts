@@ -8,6 +8,8 @@
 
         public readonly count: number = 0;
 
+        private frames: ImageMapFrame[] = [];
+
         public constructor(
             public readonly image: HTMLImageElement | HTMLCanvasElement | HTMLVideoElement,
             public readonly tileWidth: number = 0,
@@ -38,6 +40,18 @@
                 this.tileWidth,
                 this.tileHeight
             );
+        }
+
+        public getFrame(imageIndex: number): ImageMapFrame {
+            if (this.frames[imageIndex] == undefined) {
+                let canvas = document.createElement('canvas');
+                canvas.width = this.tileWidth;
+                canvas.height = this.tileHeight;
+                let context = canvas.getContext('2d');
+                this.render(context, 0, 0, imageIndex);
+                this.frames[imageIndex] = new ImageMapFrame(imageIndex, canvas);
+            }
+            return this.frames[imageIndex];
         }
 
     }

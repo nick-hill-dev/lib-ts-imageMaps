@@ -10,3 +10,4 @@ bin
 .vs
 *.js
 *.d.ts
+imageMaps.d.ts.map
