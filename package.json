@@ -1,0 +1,24 @@
+{
+  "name": "lib-ts-imageMaps",
+  "version": "1.0.0",
+  "description": "TypeScript library for working with and rendering canvas-based image maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick-hill-dev/lib-ts-imageMaps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nick-hill-dev/lib-ts-imageMaps/issues"
+  },
+  "homepage": "https://github.com/nick-hill-dev/lib-ts-imageMaps#readme",
+  "devDependencies": {
+    "typescript": "^3.6.3"
+  }
+}

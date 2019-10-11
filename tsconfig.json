@@ -5,15 +5,14 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
-    "module": "system",
+    "module": "commonjs",
     "removeComments": false,
-    "outFile": "imageMaps.js",
+    "outDir": "./lib",
     "noEmitOnError": true,
     "composite": true,
     "declaration": true,
     "declarationMap": true
   },
-  "exclude": [
-    "imageMaps.d.ts"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }
